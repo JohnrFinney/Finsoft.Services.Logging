@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Finsoft.Logging.Core</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Finsoft Dev Team</Authors>
+    <Company>Finsoft</Company>
+    <Product>Finsoft Logging Library Core</Product>
+    <Description>A .NET Core compatible SQL logging library for use with Dependency Injection.</Description>
+    <PackageTags>logging;sql;sqlserver;dotnet;netcore;database;exception;web;api</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Initial release of Finsoft Logging Core Library with DI support.</PackageReleaseNotes>
+    <Copyright>Copyright (c) 2026 Finsoft</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.4" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
