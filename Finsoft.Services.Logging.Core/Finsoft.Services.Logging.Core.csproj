@@ -13,6 +13,7 @@
     <Description>A .NET Core compatible SQL logging library for use with Dependency Injection.</Description>
     <PackageTags>logging;sql;sqlserver;dotnet;netcore;database;exception;web;api</PackageTags>
     <RepositoryType>git</RepositoryType>
+	  <RepositoryUrl>https://github.com/johnrfinney/Finsoft.Services.Logging</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>Initial release of Finsoft Logging Core Library with DI support.</PackageReleaseNotes>
